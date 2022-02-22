@@ -1,0 +1,39 @@
+body {
+    background: #212121;
+    color: white;
+}
+
+button {
+    background: #1b1b1b;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-size: 2em;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background: #313131;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.counter {
+    display: grid;
+    font-size: 2em;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    place-items: center;
+}
